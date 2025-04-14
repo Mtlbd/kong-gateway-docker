@@ -115,6 +115,22 @@ docker run -d --name konga \
 - To use Kong Enterprise, set the `KONG_LICENSE_DATA` environment variable.
 - Consider using Docker Compose for better management.
 
+
+---
+
+## 🚀 Run All Services with Docker Compose
+
+- Alternatively, you can use Docker Compose to start all services (Postgres, Kong Gateway, and Konga) with a single command.
+- Make sure you have docker-compose.yml in your project directory.
+
+Run the following command:
+
+```bash
+docker-compose up -d
+```
+
+- This will start all the containers in detached mode.
+
 ---
 
 The End 🎉
